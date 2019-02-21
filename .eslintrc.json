@@ -1,0 +1,33 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "fetch": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/destructuring-assignment": [false, "always"],
+    "react/prop-types":false,
+    "react/no-unused-prop-types": false,
+    "react/forbid-prop-types": [
+      true,
+      {
+        "forbid": [false],
+        "checkContextTypes": false,
+        "checkChildContextTypes": false
+      }
+    ],
+    "react/require-default-props": [
+      false,
+      { "forbidDefaultForRequired": false }
+    ]
+  }
+}

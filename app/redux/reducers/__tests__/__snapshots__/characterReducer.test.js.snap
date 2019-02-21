@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterReducer nested data on initial detail fetch 1`] = `
+Object {
+  "loading": true,
+}
+`;
+
+exports[`CharacterReducer nested data on initial fetch 1`] = `
+Object {
+  "loading": true,
+}
+`;

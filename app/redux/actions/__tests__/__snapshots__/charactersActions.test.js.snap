@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharactersActions checking formatted action 1`] = `
+Object {
+  "type": "GET_CHARACTERS",
+}
+`;
+
+exports[`CharactersActions checking if the action is well formatted 1`] = `
+Object {
+  "id": 2,
+  "type": "GET_CHARACTER_DETAILS",
+}
+`;
