@@ -6,7 +6,7 @@ export default EStyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     borderTopWidth: 0.75,
-    borderColor: '$secondaryColor',
+    borderColor: '$primaryColor',
   },
   content_container: {
     flex: 1,
